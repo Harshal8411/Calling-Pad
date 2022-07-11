@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calling Button</title>
+    <script src="https://kit.fontawesome.com/688ef8e5b5.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            background: #ebeef1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        button{
+            font-size: 32px;
+            font-weight: 500;
+            padding: 20px;
+            margin: 30px;
+            width: 350px;
+            background: #ebeef1;
+            cursor: pointer;
+            border: none;
+            border-radius: 50px;
+            color: #00a037;
+            box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.18),
+                        -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+        }
+        .reject{
+            color: #ed0000 ;
+            box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.18),
+                        inset -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+        }
+        button i{
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body >
+    <div class="container">
+        <button type="button" ><i class="fas fa-phone-square-alt"></i>Accept</button>
+        <button type="button" class="reject"> <i class="fas fa-phone-square-alt"></i>Reject</button>
+    </div>
+    
+</body>
+</html>
